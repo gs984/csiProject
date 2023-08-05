@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+font-family: 'Poppins', monospace;
+}
+ul {
+    list-style: none;
+    background: #08245c;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #08245c;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #ffffff00;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    position: absolute;
+}
+ul li:hover ul.dropdown li a{
+    display: block;
+    font-size: 12px;
+}
+label.logo{
+    display: block;
+    background: #08245c;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 20px;
+}
+label.IndPart{
+    display: block;
+    block-size: auto;
+    background: #f7f7f7;
+    font-size: 40px;
+    padding: 50px;
+}
+.text{
+    margin: 15px;
+}
+.imageRow {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.imageRow img {
+    margin: 0 50px;
+    height: 65px; 
+  }
+  .button-container {
+    text-align: left;
+  }
+
+
+  button {
+    background-color: #1e46d8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  input[type="text"] {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ccc;
+  }
+  a{
+    color: white;
+  }
